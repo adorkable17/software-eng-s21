@@ -32,6 +32,9 @@ Pixel 4 API 30
 
 Testing was completed via population of this database: <https://docs.google.com/spreadsheets/d/17RXZm4dtaOq4gcVdzGk1NmaefXejd-OvECvet_CpQO4/edit#gid=0> where the different pages of the sheets correspond to features created by each of the subgroups.
 
+## Alternate Documentation
+Previous reports, demo slides, etc. <https://drive.google.com/drive/folders/14RfJjFsYiLraaurJ0TEUvOvkzZOxk5gh?usp=sharing>
+
 ## Class Names/Functions
 ### AppHomePage.java
 Main interaction screen of the app, which a successful login will lead to. From here users can choose where in the app they want to navigate to; either Recipes, Restaurants, Social Page, or User Profile.
