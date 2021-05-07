@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login Application</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="facebook_app_id">904437443729081</string>
+    <string name="fb_login_protocol_scheme">fb904437443729081</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="log_in_to_see_your_friends">Log in to see your friends</string>
+
+</resources>

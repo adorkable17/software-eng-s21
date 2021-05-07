@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--in this we are displaying a nested scroll view-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idNested"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantSearch"
+    >
+
+    <!--recycler view for displaying our list of data
+        and we are making nested scroll for our
+        recycler view as false-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVRestaurants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        tools:listitem="@layout/restaurant_rv_item" />
+
+    <!--we are adding progress bar for the purpose of loading-->
+
+    <EditText
+        android:id="@+id/searchInputRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:translationY="5dp"
+        android:gravity="clip_horizontal|center"
+        android:hint="Search by Keyword"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageButton
+        android:id="@+id/buttonR"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#98D2FF"
+        android:elevation="6dp"
+        android:scaleType="centerCrop"
+        android:translationY="5dp"
+        android:layout_alignParentRight="true" />
+
+
+
+    <TextView
+        android:id="@+id/SearchImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:translationY="50dp"
+        android:gravity="center"
+        android:text="Results for:"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

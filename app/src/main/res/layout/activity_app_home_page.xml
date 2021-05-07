@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idHomePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppHomePage"
+    >
+
+    <ImageView
+    android:id="@+id/logoImage"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:backgroundTint="#98D2FF"
+    android:elevation="6dp"
+    android:gravity="center_horizontal"
+    android:scaleType="centerInside"
+    />
+    <TextView
+        android:id="@+id/textHomePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImage"
+        android:gravity="center"
+        android:text="Home Page"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:translationY="50dp"
+        >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonProfile"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="#98D2FF"
+                android:elevation="6dp"
+                android:gravity="center_horizontal"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:id="@+id/textProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonProfile"
+                android:gravity="center"
+                android:text="User Profile"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/buttonSocial"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/textProfile"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#98D2FF"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:id="@+id/textSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonSocial"
+                android:gravity="center"
+                android:text="Social Page"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context=".AppHomePage"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonMaps"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="#98D2FF"
+                android:elevation="6dp"
+                android:gravity="center_horizontal"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:id="@+id/textMaps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonMaps"
+                android:gravity="center"
+                android:text="Restaurants"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/buttonRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/textRecipe"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#98D2FF"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:id="@+id/textRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonRecipe"
+                android:gravity="center"
+                android:text="Recipes"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
