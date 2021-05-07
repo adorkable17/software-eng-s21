@@ -1,5 +1,8 @@
 # FoodBlocker Pro- Team 13 Software Engineering S21
 
+## Description
+Ever wanted to eat with your friends at Rutgers without fear? Ever been stopped by food allergies or dietary restrictions from having a good time? Fear not, FoodBlocker Pro is your solution to knowing what and where to eat! Figure out which nearby restaurants have options for your allergies/restrictions, learn some new recipes to share with friends, and connect with others and share experiences via Facebook!
+
 ## Visuals
 Demo 1: <https://youtu.be/1XH359Pfe2U>
 
@@ -27,7 +30,7 @@ Pixel 4 API 30
 
 ## Testing
 
-Testing was completed via population of this database
+Testing was completed via population of this database: <https://docs.google.com/spreadsheets/d/17RXZm4dtaOq4gcVdzGk1NmaefXejd-OvECvet_CpQO4/edit#gid=0> where the different pages of the sheets correspond to features created by each of the subgroups.
 
 ## Class Names/Functions
 ### AppHomePage.java
